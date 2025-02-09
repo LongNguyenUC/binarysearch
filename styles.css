@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #578FCA;
+}
+
+.input-container{
+    width: 400px;
+    height: 100px;
+    margin: 20px auto 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input-header{
+   color: black;
+   font-size: 20px;
+   background-color: #a8abc7;
+   font-weight: bold;
+}
+#number-input{
+    width: 40px;
+    height: 40px;
+}
+#Search{
+    width: 100px;
+    height: 25px;
+}
+
+.sortcontainer{
+    display: flex;
+    height: 50px;
+    width: 400px;
+    margin: 50px auto;
+    
+}
+
+.box{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
