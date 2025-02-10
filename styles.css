@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
 }
 
 body{
@@ -45,4 +46,7 @@ body{
     justify-content: center;
     align-items: center;
     border: 1px solid white;
+    background-color: #a8abc7;
+    font-weight: bold;
 }
+
