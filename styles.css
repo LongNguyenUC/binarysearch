@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Gill Sans", sans-serif;
+    
 }
 
 body{
@@ -34,19 +35,26 @@ body{
 
 .sortcontainer{
     display: flex;
-    height: 50px;
-    width: 400px;
+    height: 67px;
+    width: 1000px;
     margin: 50px auto;
     
 }
 
 .box{
     flex: auto;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid white;
     background-color: #a8abc7;
     font-weight: bold;
+}
+
+.message-container{
+    width: 250px;
+    height:  150px;
+    margin: auto;
 }
 
